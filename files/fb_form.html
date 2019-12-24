@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>Facebook Form</title>
+	<link rel="stylesheet" href="../css/style_3.css">
+</head>
+<body>
+	<header>
+		<div class="wrapper">
+			<div class="logo">
+				<img src="../image/facebook.PNG" alt="Facebook">
+			</div>
+			<div class="option">
+				<label for="email" class="pass pl" id="email">E-mail or Phone:</label><br>
+				<input type="e-mail"name="mail"class="pass pl"><br>
+				<label for="password" class="pas pl">Password:</label><br>
+				<input type="password" name="pass" class="pas pl"><br>
+				<button  type="Submit" class="pa pl">Log in</button>
+			</div>
+		</div>
+	</header>
+	
+	<div class="connect">
+		<div class="pic">
+			<img src="../image/fbpic.PNG" alt="fb pic">
+		</div>
+	<div class="container">
+   	<form action="#" method="get" enctype="multipart/form-data">
+   		<div class="h1">Create a new account</div>
+   		<div class="p">It's quick and easy.</div>
+   		<input type="text" placeholder="First name" name="first_name" id="first_name" class="f_name">
+
+   		<input type="text" placeholder="Surname" name="surname" id="surname" class="s_name"><br>
+
+   		<input type="email" placeholder="Mobile number or email adders" name="email" id="email" class="email">
+
+   		<input type="password" placeholder="New password" name="password" id="password" class="password"><br><br>
+     <!--Dropdown start-->
+     <div class="birth">
+   		<label for="birthday">Birthday</lebel>
+   	 </div> 
+   	 <div id="dropdown">   
+   	     <select aria-label="Day" id="dropdown" name="dropdown">
+         <option value="day">Day</option>
+         </select>
+         <select aria-label="Month" id="dropdown" name="dropdown">
+         <option value="month">Month</option>
+         </select>
+         <select aria-label="Year" id="dropdown" name="dropdown">
+         <option value="year">Year</option>
+        </select></div><br>
+     <!--Dropdown end-->
+     <!--Radio btn start-->
+         <div class="gen">
+          <label for="gender">Gender</lebel><br>
+          </div>
+      <div id="gender">
+      	<input type="radio" value="Male" name="gender"id="gender" class="gender"><span>Male</span>
+       	<input type="radio" value="female" name="gender"id="gender" class="gender"><span>Female</span>
+       	<input type="radio" value="Custom" name="gender"id="gender" class="gender"><span>Custom</span>
+      </div><br>
+     <!--Radio btn end-->
+        <p style="font-size: 15px">By clicking Sign Up, you agree to our <a href="#" target="_blank">Terms,</a><a href="#" target="_blank"> Data Policy</a> &nbsp; and &nbsp; <a href="#" target="_blank">Cookie Policy.</a> You may receive SMS notifications from us and can opt out at any time</p><br>
+      <div class="btn">  
+       <button type="submit">Sign up</button>
+      </div>
+   	</form>
+   	
+    </div>
+    </div>
+    <ul>
+		<center>
+			<li class="active"><a href="../index.html">Home</a></li>
+		</center>
+	</ul>				
+
+	<!--<form action="login.html" method="post">
+		
+			<fieldset>
+				<legend>Registration:</legend>
+				<label>Write your name:<input type="text" name="text"></label><br>
+				<label for="Choose">Write your nick-name:</label>
+				<input type="text" name="text" id="Choose"><br>
+				<label>Write your Password:<input type="password" name="password"></label><br>
+				<label>Write your E-mail:<input type="e-mail" name="e-mail"></label><br>
+				Choose your gender:<br> 
+				Male<input type="radio" name="gender" value="Male">Female<input type="radio" name="gender" value="Female">Other<input type="radio" name="gender" value="Other"><br>
+				Date:<input type="date"><br>
+				Birth Date:
+			
+				<select name="Day">
+					<option value="Day">Day</option>
+					<option value="1">1</option>
+					<option value="2">2</option>
+					<option value="3">3</option>
+					<option value="4">4</option>
+					<option value="5">5</option>
+					<option value="6">6</option>
+					<option value="7">7</option>
+				
+				</select>
+			
+				<select name="Month">
+					<option value="Month">Month</option>
+					<option value="Jan">Jan</option>
+					<option value="Feb">Feb</option>
+					<option value="Mar">Mar</option>
+					<option value="Apr">Apr</option>
+					<option value="May">May</option>
+					<option value="Jun">Jun</option>
+					<option value="Jul">Jul</option>
+				
+				</select>
+				
+				<select name="Year">
+					<option value="Day">Year</option>
+					<option value="1999">1999</option>
+					<option value="2000">2000</option>
+					<option value="2001">2001</option>
+					<option value="2002">2002</option>
+					<option value="2003">2003</option>
+					<option value="2004">2004</option>
+					<option value="2005">2005</option>
+					
+				</select><br><br>
+				
+				<input type="Checkbox">I accept with this condition<br>
+				<label>Write your comment:<textarea rows="10" cols="100"></textarea></label><br>
+				<input type="Reset" value="Reset"><input type="Submit">
+			
+			</fieldset>
+		
+		</form>-->
+</body>
+</html>

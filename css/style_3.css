@@ -1,0 +1,179 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+header{
+	background-color: #3F5C9A;
+}
+.wrapper{
+	overflow: hidden;
+	width: 80%;
+	/*border: 2px solid yellow;*/
+	margin: 0 auto;
+}
+.logo{
+	width: 20%;
+	/*border: 2px solid red;*/
+	float: left;
+	margin-top: 17px;	
+}
+.logo img{
+	width: 100%;
+}
+.option{
+	display: inline;
+	color: white;
+	width: 70%;
+	/*border: 2px solid red;*/
+	float: right;
+}
+.pass{
+	/*float: right;*/
+}
+.pas{
+	/*float: right;*/
+}
+.pl{
+	color: white;
+	float: right;
+	margin-right: 330px;
+}
+.pa{
+	float: right;
+	color:white;
+	background-color: #405D9A;
+}
+.connect{
+	overflow: hidden;
+	width: 100%;
+	/*border: 2px solid yellow;*/
+	margin: 0 auto;
+	background-color: #E9EBEE;
+}
+.container{
+	/*width: 33%;
+	margin: 0 auto;*/
+	background-color: #E9EBEE;
+	display: inline;
+	/*color: white;*/
+	width: 50%;
+	/*border: 2px solid red;*/
+	float: right;
+	
+}
+.pic{
+	width: 50%;
+	/*border: 2px solid red;*/
+	float: left;
+	
+}
+.pic img{
+	width: 100%;
+}
+.h1{
+	font-size: 36px;
+	font-weight: bold;
+	font-family: Arial;
+}
+.p{
+	font-size: 20px;
+	margin-top: 8px;
+	font-family: Arial;
+}
+.f_name{
+	margin-top: 20px;
+    display: inline;
+    font-size: 15px;
+    padding: 5px;
+    border: 1px solid #A9A9A9;
+    border-radius: 5px;
+}
+.s_name{
+	margin-top: 20px;
+    display: block-inline;
+    font-size: 15px;
+    padding: 5px;
+    border: 1px solid #A9A9A9;
+    border-radius: 5px;
+}
+.email{
+	width: 89%;
+    margin-top: 20px;
+    font-size: 15px;
+    padding: 5px;
+    margin: 5px 0;
+    border: 1px solid #A9A9A9;
+    border-radius: 5px;
+}
+.password{
+	width: 89%;
+    margin-top: 20px;
+    font-size: 15px;
+    padding: 5px;
+    margin: 0;
+    border: 1px solid #A9A9A9;
+    border-radius: 5px;
+} 
+label{
+	color: #90949c;
+    font-size: 19px;
+    font-weight: bold;
+
+}
+.birth{
+	margin-bottom: 8px;
+}
+#dropdown{
+	font-size: 13px;
+    height: 27px;
+    padding: 0;
+    margin-top: 4px;
+}
+.gen{
+	margin-bottom: 10px;
+}
+#gender{
+	color: #1d2129;
+    font-size: 20px;
+    font-weight: normal;
+    line-height: 18px;
+    padding: 0 10px 0 3px;
+}
+.btn button{
+    margin-top: 10px;
+    margin-bottom: 10px;
+    font-family: Arial;
+    font-weight: bold ;
+    background-color: lightgreen;
+    letter-spacing: normal;
+    min-width: 194px;
+    padding: 7px 20px;
+    text-align: center;
+    font-size: 20px;
+    border: 2px solid black;
+    border-radius: 5px;
+    color: white;
+
+}
+button:hover{
+    background-color: #2CA40E;
+    border: 2px solid black;
+    border-radius: 5px;
+}
+ul{
+	
+	list-style-type: none;
+}
+ul li a{
+	display: block;
+	font-size: 45px;
+    color: #A9A9A9;
+    background-color: #43609C;
+    text-decoration: none;
+    text-transform: uppercase;
+    transition: 0.5s;
+}
+
+ul li a:hover{
+	color: skyblue;
+}

@@ -1,0 +1,42 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+header{
+	background-color: #1B1A1B;
+	padding: 3px;
+	box-shadow: 0 5px #030C17;
+}
+
+.menu ul{
+	
+	list-style-type: none;
+}
+.menu ul li a{
+	display: block;
+	font-size: 45px;
+    color: white;
+    background-color: black;
+    text-decoration: none;
+    text-transform: uppercase;
+    transition: 0.5s;
+}
+
+.menu ul li a:hover{
+	color: purple;
+}
+p{
+	font-size: 30px;
+	text-underline-position: center;
+	color: white;
+}
+center{
+	background-color: green;
+}
+p{
+	background-color: red;
+}
+img{
+	width:80%;
+}
+
